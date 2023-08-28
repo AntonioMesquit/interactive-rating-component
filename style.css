@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/*font-family: 'Overpass', sans-serif;*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+body{
+    background-color: rgb(20, 21, 25);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+.card-rated{
+background-color: rgb(33, 40, 50);
+width: 500px;
+height: 450px;
+border-radius: 35px;
+padding: 40px;
+
+}
+body.active .card-rated {
+
+display: none;
+
+}
+
+.card-thanks{
+    background-color: rgb(33, 40, 50);
+width: 440px;
+height: 430px;
+border-radius: 35px;
+padding: 40px;
+display: none;
+
+}
+body.active .card-thanks{
+display: block;
+}
+.slt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 30px;
+    
+    
+}
+.text-final{
+    text-align: center;
+}
+.text-final h1{
+    color: white;
+    margin-bottom: 15px;
+}
+.text-final p{
+    color: rgb(119, 126, 136);
+    line-height: 25px;
+}
+.slt p{
+    background-color: rgb(46, 58, 65);
+    border-radius: 20px;
+    text-align: center;
+    width:60%;
+    padding: 10px;
+    color: rgb(252, 118, 19);
+}
+.image{
+    text-align: center;
+    margin-bottom: 10px;
+   margin-top: 10px;
+}
+.text{
+    margin-bottom: 30px;
+}
+.text h1{
+    color: white;
+    margin-bottom: 15px;
+}
+.text p{
+    color: rgb(128, 137, 148);
+    width: 90%;
+
+}
+.star{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(39, 48, 57);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.st{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rt{
+    list-style: none;
+    background-color: rgb(39, 48, 57);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(134, 143, 158);
+    font-weight: 700;
+    cursor: pointer;
+}
+.rt:hover{
+    transition: .5s;
+    background-color: rgb(255, 118, 14);
+    color: white;
+}
+.submite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background-color: rgb(252, 118, 19);
+    width: 100%;
+    text-align: center;
+    padding-block: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: .5s;
+    background-color: #fff;
+   color:  rgb(252, 118, 19);;
+   font-weight: 700;
+}
+.rt.active{
+    background-color: rgb(123, 135, 151);
+    color:white;
+}
